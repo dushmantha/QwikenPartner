@@ -1,0 +1,30 @@
+<svg width="135" height="40" viewBox="0 0 135 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="playStoreGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4285F4"/>
+      <stop offset="25%" style="stop-color:#4285F4"/>
+      <stop offset="50%" style="stop-color:#34A853"/>
+      <stop offset="75%" style="stop-color:#FBBC04"/>
+      <stop offset="100%" style="stop-color:#EA4335"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="135" height="40" rx="6" ry="6" fill="#000000" stroke="#A6A6A6" stroke-width="0.5"/>
+  
+  <!-- Google Play Logo -->
+  <g transform="translate(8, 8)">
+    <!-- Play triangle -->
+    <path d="M2 2 L14 10 L2 18 Z" fill="url(#playStoreGradient)" opacity="0.8"/>
+    <path d="M2 2 L10 10 L2 18 L2 2" fill="#4285F4"/>
+    <path d="M10 10 L14 10 L10 14 Z" fill="#EA4335"/>
+    <path d="M2 18 L10 10 L14 10 L10 14 Z" fill="#FBBC04"/>
+    <path d="M2 2 L10 10 L14 10 L10 6 Z" fill="#34A853"/>
+  </g>
+  
+  <!-- Text -->
+  <g fill="white" font-family="Roboto, sans-serif">
+    <text x="32" y="12" font-size="8" font-weight="300">GET IT ON</text>
+    <text x="32" y="28" font-size="15" font-weight="400">Google Play</text>
+  </g>
+</svg>

@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "org.app.qwiken.app-release-48:/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "org.app.qwiken.app-res-42:/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "org.app.qwiken.app-main-49:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "org.app.qwiken.app-main-49:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "org.app.qwiken.app-main-49:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/drawable-hdpi_node_modules_reactnativecalendars_src_img_up.png.flat",
+        "source": "org.app.qwiken.app-res-42:/drawable-hdpi/node_modules_reactnativecalendars_src_img_up.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/drawable-xhdpi_node_modules_reactnativecalendars_src_img_down.png.flat",
+        "source": "org.app.qwiken.app-res-42:/drawable-xhdpi/node_modules_reactnativecalendars_src_img_down.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/drawable-mdpi_node_modules_reactnativecalendars_src_img_up.png.flat",
+        "source": "org.app.qwiken.app-res-42:/drawable-mdpi/node_modules_reactnativecalendars_src_img_up.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/drawable-xxxhdpi_node_modules_reactnativecalendars_src_calendar_img_previous.png.flat",
+        "source": "org.app.qwiken.app-res-42:/drawable-xxxhdpi/node_modules_reactnativecalendars_src_calendar_img_previous.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "org.app.qwiken.app-main-49:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "org.app.qwiken.app-res-42:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/drawable-xxhdpi_node_modules_reactnativecalendars_src_calendar_img_next.png.flat",
+        "source": "org.app.qwiken.app-res-42:/drawable-xxhdpi/node_modules_reactnativecalendars_src_calendar_img_next.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/drawable-xxxhdpi_node_modules_reactnativecalendars_src_calendar_img_next.png.flat",
+        "source": "org.app.qwiken.app-res-42:/drawable-xxxhdpi/node_modules_reactnativecalendars_src_calendar_img_next.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/drawable-mdpi_node_modules_reactnativecalendars_src_img_down.png.flat",
+        "source": "org.app.qwiken.app-res-42:/drawable-mdpi/node_modules_reactnativecalendars_src_img_down.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/drawable-xxhdpi_node_modules_reactnativecalendars_src_img_down.png.flat",
+        "source": "org.app.qwiken.app-res-42:/drawable-xxhdpi/node_modules_reactnativecalendars_src_img_down.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/drawable-xxxhdpi_node_modules_reactnativecalendars_src_img_up.png.flat",
+        "source": "org.app.qwiken.app-res-42:/drawable-xxxhdpi/node_modules_reactnativecalendars_src_img_up.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "org.app.qwiken.app-res-42:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "org.app.qwiken.app-res-42:/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "org.app.qwiken.app-res-42:/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/drawable-xhdpi_node_modules_reactnativecalendars_src_calendar_img_next.png.flat",
+        "source": "org.app.qwiken.app-res-42:/drawable-xhdpi/node_modules_reactnativecalendars_src_calendar_img_next.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/drawable_launch_background.xml.flat",
+        "source": "org.app.qwiken.app-main-49:/drawable/launch_background.xml"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/drawable-hdpi_node_modules_reactnativecalendars_src_calendar_img_previous.png.flat",
+        "source": "org.app.qwiken.app-res-42:/drawable-hdpi/node_modules_reactnativecalendars_src_calendar_img_previous.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "org.app.qwiken.app-main-49:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/drawable_rn_edit_text_material.xml.flat",
+        "source": "org.app.qwiken.app-main-49:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/drawable-xxxhdpi_node_modules_reactnativecalendars_src_img_down.png.flat",
+        "source": "org.app.qwiken.app-res-42:/drawable-xxxhdpi/node_modules_reactnativecalendars_src_img_down.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "org.app.qwiken.app-main-49:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/drawable-mdpi_src_assets_images_qwikenlogo.png.flat",
+        "source": "org.app.qwiken.app-res-42:/drawable-mdpi/src_assets_images_qwikenlogo.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/drawable-xxhdpi_node_modules_reactnativecalendars_src_calendar_img_previous.png.flat",
+        "source": "org.app.qwiken.app-res-42:/drawable-xxhdpi/node_modules_reactnativecalendars_src_calendar_img_previous.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/drawable-xhdpi_node_modules_reactnativecalendars_src_calendar_img_previous.png.flat",
+        "source": "org.app.qwiken.app-res-42:/drawable-xhdpi/node_modules_reactnativecalendars_src_calendar_img_previous.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/drawable-xhdpi_node_modules_reactnativecalendars_src_img_up.png.flat",
+        "source": "org.app.qwiken.app-res-42:/drawable-xhdpi/node_modules_reactnativecalendars_src_img_up.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/drawable-hdpi_node_modules_reactnativecalendars_src_calendar_img_next.png.flat",
+        "source": "org.app.qwiken.app-res-42:/drawable-hdpi/node_modules_reactnativecalendars_src_calendar_img_next.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "org.app.qwiken.app-main-49:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/layout_launch_screen.xml.flat",
+        "source": "org.app.qwiken.app-main-49:/layout/launch_screen.xml"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "org.app.qwiken.app-main-49:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "org.app.qwiken.app-res-42:/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "org.app.qwiken.app-main-49:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "org.app.qwiken.app-main-49:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/drawable-xxhdpi_node_modules_reactnativecalendars_src_img_up.png.flat",
+        "source": "org.app.qwiken.app-res-42:/drawable-xxhdpi/node_modules_reactnativecalendars_src_img_up.png"
+    },
+    {
+        "merged": "org.app.qwiken.app-release-48:/drawable-hdpi_node_modules_reactnativecalendars_src_img_down.png.flat",
+        "source": "org.app.qwiken.app-res-42:/drawable-hdpi/node_modules_reactnativecalendars_src_img_down.png"
+    }
+]

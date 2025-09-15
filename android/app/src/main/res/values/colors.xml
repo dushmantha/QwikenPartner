@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash screen background color - Dark blue matching the logo background -->
+    <color name="splash_background">#1a2533</color>
+    
+    <!-- Qwiken brand colors -->
+    <color name="qwiken_purple">#9B79D9</color>
+    <color name="qwiken_cream">#F5F5DC</color>
+</resources>

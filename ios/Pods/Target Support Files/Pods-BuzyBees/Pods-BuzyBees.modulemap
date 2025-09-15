@@ -1,0 +1,6 @@
+module Pods_BuzyBees {
+  umbrella header "Pods-BuzyBees-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "848067237114",
+    "project_id": "qwiken-978a2",
+    "storage_bucket": "qwiken-978a2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848067237114:android:b041da7ccf2080c5d1a543",
+        "android_client_info": {
+          "package_name": "org.app.qwiken"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpuD9k_Gt87r9hditVfIT9L1qafxwBpjQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

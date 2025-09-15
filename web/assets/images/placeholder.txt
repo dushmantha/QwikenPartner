@@ -1,0 +1,35 @@
+# Qwiken Website Images
+
+This folder contains the following images for the Qwiken website:
+
+## Required Images:
+1. qwiken-logo.png - Main logo (✓ Copied from app)
+2. favicon.png - Browser favicon
+3. app-screenshot-1.png - Main app screenshot
+4. app-screenshot-2.png - Service details screenshot
+5. app-screenshot-3.png - Booking screen screenshot
+6. app-screenshot-4.png - Profile screen screenshot
+7. about-qwiken.jpg - About section image
+8. iphone-mockup.png - iOS phone mockup
+9. android-mockup.png - Android phone mockup
+10. app-store-badge.png - App Store download badge
+11. google-play-badge.png - Google Play download badge
+
+## How to add images:
+1. Take screenshots of your Qwiken app
+2. Create mockups using online tools like:
+   - MockDrop.io
+   - Smartmockups.com
+   - Placeit.net
+3. Download official store badges from:
+   - Apple: https://developer.apple.com/app-store/marketing/guidelines/
+   - Google: https://play.google.com/intl/en_us/badges/
+
+## Image Specifications:
+- Logo: 400x400px, PNG with transparency
+- Screenshots: 1080x1920px (mobile aspect ratio)
+- Mockups: 800x1600px
+- Store badges: Official dimensions from stores
+- About image: 800x600px, high quality
+
+All images should be optimized for web (compressed but high quality).

@@ -1,0 +1,1 @@
+export { favoritesAPI, type FavoriteShop, type FavoritesResponse } from './favoritesAPI';
