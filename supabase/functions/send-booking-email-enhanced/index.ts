@@ -146,8 +146,8 @@ async function sendEmailViaResend({ to, subject, html, type }: {
 
   // Determine sender based on type - using verified Resend emails
   const fromAddress = type === 'business_notification' 
-    ? 'Qwiken Business <admin@qwiken.org>'
-    : 'Qwiken <noreply@qwiken.org>';
+    ? 'Qwiken Partner Business <admin@qwiken.org>'
+    : 'Qwiken Partner <noreply@qwiken.org>';
 
   const emailData = {
     from: fromAddress,
@@ -252,7 +252,7 @@ function generateBookingConfirmationHTML(data: BookingEmailData): string {
     <html>
     <head>
       <meta charset="utf-8">
-      <title>Booking Confirmation - Qwiken</title>
+      <title>Booking Confirmation - Qwiken Partner</title>
       <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { 
@@ -650,14 +650,14 @@ function generateBookingConfirmationHTML(data: BookingEmailData): string {
         </div>
         
         <div class="footer">
-          <div class="footer-brand">Qwiken</div>
+          <div class="footer-brand">Qwiken Partner</div>
           <div class="footer-text">Making appointments simple and convenient</div>
           <div class="social-links">
             <a href="#" class="social-link">📧</a>
             <a href="#" class="social-link">📱</a>
             <a href="#" class="social-link">🌐</a>
           </div>
-          <div class="footer-text">© 2025 Qwiken. All rights reserved.</div>
+          <div class="footer-text">© 2025 Qwiken Partner. All rights reserved.</div>
         </div>
       </div>
     </body>
@@ -671,7 +671,7 @@ function generateBusinessNotificationHTML(data: BusinessNotificationData): strin
     <html>
     <head>
       <meta charset="utf-8">
-      <title>New Booking Notification - Qwiken</title>
+      <title>New Booking Notification - Qwiken Partner</title>
       <style>
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 0; background-color: #f5f5f5; }
         .container { max-width: 600px; margin: 20px auto; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
@@ -692,7 +692,7 @@ function generateBusinessNotificationHTML(data: BusinessNotificationData): strin
       <div class="container">
         <div class="header">
           <h1>New Booking</h1>
-          <p>Qwiken Business Portal</p>
+          <p>Qwiken Partner Business Portal</p>
         </div>
         
         <div class="content">
@@ -701,7 +701,7 @@ function generateBusinessNotificationHTML(data: BusinessNotificationData): strin
           </div>
           
           <h2>Hello ${data.business_name}!</h2>
-          <p>You have received a new booking through Qwiken. Here are the details:</p>
+          <p>You have received a new booking through Qwiken Partner. Here are the details:</p>
           
           <div class="customer-info">
             <h3 style="margin-top: 0; color: #2196F3;">👤 Customer Information</h3>
@@ -769,13 +769,13 @@ function generateBusinessNotificationHTML(data: BusinessNotificationData): strin
           </div>
           
           <p style="text-align: center; color: #666;">
-            This booking was made through Qwiken. Please respond promptly to maintain good customer service.
+            This booking was made through Qwiken Partner. Please respond promptly to maintain good customer service.
           </p>
         </div>
         
         <div class="footer">
-          <p>Manage your bookings on Qwiken Business Portal</p>
-          <p>© 2025 Qwiken. All rights reserved.</p>
+          <p>Manage your bookings on Qwiken Partner Business Portal</p>
+          <p>© 2025 Qwiken Partner. All rights reserved.</p>
         </div>
       </div>
     </body>

@@ -82,8 +82,8 @@ class PushNotificationService {
         PushNotification.createChannel(
           {
             channelId: 'qwiken-default',
-            channelName: 'Qwiken Notifications',
-            channelDescription: 'Default notification channel for Qwiken app',
+            channelName: 'Qwiken Partner Notifications',
+            channelDescription: 'Default notification channel for Qwiken Partner app',
             playSound: true,
             soundName: 'default',
             importance: Importance.HIGH,

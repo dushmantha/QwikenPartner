@@ -77,7 +77,7 @@ serve(async (req) => {
             html: generateReminderEmailHTML(bookingData),
             text: generateReminderEmailText(bookingData),
             from_email: 'reminders@qwiken.com',
-            from_name: 'Qwiken Reminders'
+            from_name: 'Qwiken Partner Reminders'
           }),
         });
 
@@ -186,7 +186,7 @@ function generateReminderEmailHTML(bookingData: any): string {
       <div class="container">
         <div class="header">
           <h1>⏰ Appointment Reminder</h1>
-          <p>Qwiken</p>
+          <p>Qwiken Partner</p>
         </div>
         
         <div class="content">
@@ -237,7 +237,7 @@ function generateReminderEmailHTML(bookingData: any): string {
 
 function generateReminderEmailText(bookingData: any): string {
   return `
-Appointment Reminder - Qwiken
+Appointment Reminder - Qwiken Partner
 
 Hi ${bookingData.customer_name}!
 
@@ -255,6 +255,6 @@ We look forward to seeing you soon!
 
 If you need to cancel or reschedule, please let us know as soon as possible.
 
-Thank you for choosing Qwiken!
+Thank you for choosing Qwiken Partner!
   `.trim();
 }

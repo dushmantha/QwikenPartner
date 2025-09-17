@@ -92,7 +92,7 @@ serve(async (req) => {
     let priceId
     
     // First, try to find existing product
-    const productName = `Qwiken ${planType === 'monthly' ? 'Monthly' : 'Yearly'} Pro`
+    const productName = `Qwiken Partner ${planType === 'monthly' ? 'Monthly' : 'Yearly'} Pro`
     const products = await stripe.products.list({
       limit: 10,
     })
@@ -103,7 +103,7 @@ serve(async (req) => {
       // Create new product
       product = await stripe.products.create({
         name: productName,
-        description: `Professional plan for Qwiken - billed ${interval}ly`,
+        description: `Professional plan for Qwiken Partner - billed ${interval}ly`,
         metadata: {
           plan_type: planType,
         },

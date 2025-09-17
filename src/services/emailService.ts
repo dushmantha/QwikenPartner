@@ -15,7 +15,7 @@ interface EmailServiceResult {
 
 class EmailService {
   private readonly FROM_EMAIL = 'sathyamalji@gmail.com';
-  private readonly FROM_NAME = 'Qwiken Support';
+  private readonly FROM_NAME = 'Qwiken Partner Support';
 
   /**
    * Generate a 4-digit OTP code
@@ -125,7 +125,7 @@ class EmailService {
         // Fall back to development logging
         console.log('📧 Fallback - Email Details:');
         console.log('To:', emailData.to_email);
-        console.log('Subject: Qwiken Password Reset - Verification Code');
+        console.log('Subject: Qwiken Partner Password Reset - Verification Code');
         console.log('OTP Code:', emailData.otp_code);
         console.log('User Name:', emailData.user_name);
         
@@ -138,7 +138,7 @@ class EmailService {
       // Development fallback - log the email details
       console.log('📧 Development Mode - Email would be sent:');
       console.log('To:', emailData.to_email);
-      console.log('Subject: Qwiken Password Reset - Verification Code');
+      console.log('Subject: Qwiken Partner Password Reset - Verification Code');
       console.log('OTP Code:', emailData.otp_code);
       console.log('User Name:', emailData.user_name);
       console.log('Expires at:', emailData.expires_at);
@@ -159,7 +159,7 @@ class EmailService {
       <html>
       <head>
         <meta charset="utf-8">
-        <title>Qwiken Password Reset</title>
+        <title>Qwiken Partner Password Reset</title>
         <style>
           body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
           .container { max-width: 600px; margin: 0 auto; padding: 20px; }
@@ -173,14 +173,14 @@ class EmailService {
       <body>
         <div class="container">
           <div class="header">
-            <h1>⚡ Qwiken</h1>
+            <h1>⚡ Qwiken Partner</h1>
             <h2>Password Reset Request</h2>
           </div>
           
           <div class="content">
             <h3>Hello ${userName}!</h3>
             
-            <p>We received a request to reset your password for your Qwiken account.</p>
+            <p>We received a request to reset your password for your Qwiken Partner account.</p>
             
             <p>Use the verification code below to continue with your password reset:</p>
             
@@ -197,12 +197,12 @@ class EmailService {
             
             <p>If you have any questions, please contact our support team.</p>
             
-            <p>Best regards,<br>The Qwiken Team</p>
+            <p>Best regards,<br>The Qwiken Partner Team</p>
           </div>
           
           <div class="footer">
-            <p>This email was sent from Qwiken Password Reset Service</p>
-            <p>© 2025 Qwiken. All rights reserved.</p>
+            <p>This email was sent from Qwiken Partner Password Reset Service</p>
+            <p>© 2025 Qwiken Partner. All rights reserved.</p>
           </div>
         </div>
       </body>

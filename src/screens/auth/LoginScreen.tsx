@@ -220,7 +220,7 @@ const LoginScreen = () => {
         if (result.isNewUser) {
           Alert.alert(
             'Welcome!',
-            'Your account has been created successfully. Welcome to Qwiken!',
+            'Your account has been created successfully. Welcome to Qwiken Partner!',
             [{ text: 'Get Started', style: 'default' }]
           );
         }
@@ -282,7 +282,7 @@ const LoginScreen = () => {
         if (result.isNewUser) {
           Alert.alert(
             'Welcome!',
-            'Your account has been created successfully. Welcome to Qwiken!',
+            'Your account has been created successfully. Welcome to Qwiken Partner!',
             [{ text: 'Get Started', style: 'default' }]
           );
         }

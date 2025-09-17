@@ -96,7 +96,7 @@ The scripts use these configurations:
 #### "Notification sent but not received"
 **Cause**: Device-specific issues
 **Solutions**:
-1. Check device notification settings: Settings > Notifications > Qwiken
+1. Check device notification settings: Settings > Notifications > Qwiken Partner
 2. Ensure device isn't in Do Not Disturb mode
 3. Try with app closed (iOS shows notifications differently when app is open)
 4. Restart the app and try again
@@ -162,7 +162,7 @@ $ node scripts/test-push.js --user-id="4e4da279-7195-4663-a4ce-4164057ece65"
 🎯 Next steps:
    1. Check your device for the notification
    2. If not received, check:
-      - iOS Settings > Notifications > Qwiken
+      - iOS Settings > Notifications > Qwiken Partner
       - Device is not in Do Not Disturb mode
       - App is not currently open (for background notifications)
 ```

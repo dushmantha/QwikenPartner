@@ -92,10 +92,10 @@ async function handleAppointmentEmail(requestBody: any) {
 
   // Determine the sender based on email type - using verified Resend emails
   const fromAddress = type === 'contact_form'
-    ? 'Qwiken Support <support@qwiken.org>'
+    ? 'Qwiken Partner Support <support@qwiken.org>'
     : type === 'business_notification' 
-    ? 'Qwiken Business <admin@qwiken.org>'
-    : 'Qwiken <noreply@qwiken.org>'
+    ? 'Qwiken Partner Business <admin@qwiken.org>'
+    : 'Qwiken Partner <noreply@qwiken.org>'
 
   // Prepare email data for Resend
   const emailData = {

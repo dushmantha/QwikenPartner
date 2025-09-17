@@ -310,8 +310,8 @@ const HomeScreen = () => {
         const granted = await PermissionsAndroid.request(
           PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
           {
-            title: 'Qwiken Location Permission',
-            message: 'Qwiken needs access to your location to show nearby services.',
+            title: 'Qwiken Partner Location Permission',
+            message: 'Qwiken Partner needs access to your location to show nearby services.',
             buttonNeutral: 'Ask Me Later',
             buttonNegative: 'Cancel',
             buttonPositive: 'OK',

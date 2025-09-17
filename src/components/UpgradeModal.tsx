@@ -91,7 +91,7 @@ const UpgradeModal: React.FC<UpgradeModalProps> = ({
         
         Alert.alert(
           'Payment Successful!',
-          'Welcome to Qwiken Pro! Your premium features are now active.',
+          'Welcome to Qwiken Partner Pro! Your premium features are now active.',
           [{ 
             text: 'Get Started', 
             onPress: () => {

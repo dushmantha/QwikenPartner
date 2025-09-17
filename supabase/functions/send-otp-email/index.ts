@@ -8,7 +8,7 @@ const corsHeaders = {
 };
 
 serve(async (req) => {
-  console.log('🐝 Qwiken OTP Email Function called');
+  console.log('🐝 Qwiken Partner OTP Email Function called');
   
   if (req.method === 'OPTIONS') {
     return new Response('ok', { headers: corsHeaders });
@@ -32,13 +32,13 @@ serve(async (req) => {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Qwiken Password Reset</title>
+        <title>Qwiken Partner Password Reset</title>
     </head>
     <body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f7f7f7;">
         <div style="max-width: 600px; margin: 0 auto; background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
             <div style="background: linear-gradient(135deg, #FFD700, #FFA500); padding: 30px; text-align: center;">
                 <div style="font-size: 40px;">🐝</div>
-                <h1 style="font-size: 32px; font-weight: bold; color: #333; margin: 10px 0;">Qwiken</h1>
+                <h1 style="font-size: 32px; font-weight: bold; color: #333; margin: 10px 0;">Qwiken Partner</h1>
                 <p style="margin: 0; color: #333; font-size: 16px;">Password Reset Request</p>
             </div>
             <div style="padding: 40px 30px; text-align: center;">
@@ -57,11 +57,11 @@ serve(async (req) => {
                 </p>
                 <div style="font-size: 12px; color: #999; margin-top: 20px;">
                     🔒 Never share this code with anyone.<br>
-                    Qwiken will never ask for verification codes.
+                    Qwiken Partner will never ask for verification codes.
                 </div>
             </div>
             <div style="background: #f8f9fa; padding: 20px; text-align: center; font-size: 14px; color: #666;">
-                <p>© 2024 Qwiken. All rights reserved.</p>
+                <p>© 2024 Qwiken Partner. All rights reserved.</p>
                 <p>This is automated - please don't reply.</p>
             </div>
         </div>
@@ -72,10 +72,10 @@ serve(async (req) => {
     
     console.log('📤 Sending email via Resend SDK...');
     const { data, error } = await resend.emails.send({
-      from: 'Qwiken <onboarding@resend.dev>',
+      from: 'Qwiken Partner <onboarding@resend.dev>',
       reply_to: 'sathyamalji@gmail.com',
       to: [email],
-      subject: `🐝 Qwiken Password Reset - Code: ${otp_code}`,
+      subject: `🐝 Qwiken Partner Password Reset - Code: ${otp_code}`,
       html: htmlContent,
     });
 

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.app.qwiken.app-mergeDebugResources-45:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/tharakadushmantha/.gradle/caches/8.14.1/transforms/f4e7beb0c1475e8a9650ff991086b4fc/transformed/appcompat-1.6.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

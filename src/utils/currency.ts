@@ -1,5 +1,5 @@
 /**
- * Currency utilities for Qwiken app
+ * Currency utilities for Qwiken Partner app
  * All prices are displayed in NZD (New Zealand Dollar)
  */
 

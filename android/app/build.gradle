@@ -80,9 +80,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "org.app.qwikenpartner"
+    namespace "org.app.qwiken"
     defaultConfig {
-        applicationId "org.app.qwikenpartner"
+        applicationId "org.app.qwiken"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 16

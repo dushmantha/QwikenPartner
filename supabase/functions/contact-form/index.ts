@@ -55,14 +55,14 @@ serve(async (req) => {
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Qwiken Contact Form Submission</title>
+      <title>Qwiken Partner Contact Form Submission</title>
     </head>
     <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4;">
       <div style="max-width: 600px; margin: 0 auto; background: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
         <!-- Header -->
         <div style="background: linear-gradient(135deg, #FFD700, #FFA500); padding: 30px; text-align: center;">
           <div style="font-size: 40px;">🐝</div>
-          <h1 style="color: #1a2533; margin: 10px 0; font-size: 28px;">Qwiken Contact Form</h1>
+          <h1 style="color: #1a2533; margin: 10px 0; font-size: 28px;">Qwiken Partner Contact Form</h1>
           <p style="color: #1a2533; margin: 0; font-size: 16px;">New Message Received</p>
         </div>
         
@@ -106,7 +106,7 @@ serve(async (req) => {
         <!-- Footer -->
         <div style="background: #f8f9fa; padding: 20px; text-align: center; border-top: 1px solid #e5e7eb;">
           <p style="color: #999; font-size: 12px; margin: 0;">
-            This email was sent from the Qwiken website contact form.
+            This email was sent from the Qwiken Partner website contact form.
           </p>
         </div>
       </div>
@@ -115,7 +115,7 @@ serve(async (req) => {
 
     // Send email to admin
     const { data: adminEmail, error: adminError } = await resend.emails.send({
-      from: 'Qwiken Contact <onboarding@resend.dev>',
+      from: 'Qwiken Partner Contact <onboarding@resend.dev>',
       to: ['admin@qwiken.org'],
       cc: ['support@qwiken.org'],
       reply_to: email,
@@ -144,7 +144,7 @@ serve(async (req) => {
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Thank you for contacting Qwiken</title>
+      <title>Thank you for contacting Qwiken Partner</title>
     </head>
     <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4;">
       <div style="max-width: 600px; margin: 0 auto; background: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
@@ -162,7 +162,7 @@ serve(async (req) => {
           </p>
           
           <p style="color: #333; font-size: 16px; line-height: 1.6;">
-            Thank you for contacting Qwiken! We've received your message and our team will get back to you as soon as possible.
+            Thank you for contacting Qwiken Partner! We've received your message and our team will get back to you as soon as possible.
           </p>
           
           <div style="background: #f8f9fa; border-radius: 8px; padding: 20px; margin: 20px 0;">
@@ -187,14 +187,14 @@ serve(async (req) => {
         <!-- Footer -->
         <div style="background: #f8f9fa; padding: 20px; text-align: center; border-top: 1px solid #e5e7eb;">
           <p style="color: #666; font-size: 14px; margin: 0 0 10px 0;">
-            Download the Qwiken App
+            Download the Qwiken Partner App
           </p>
           <p style="color: #999; font-size: 12px; margin: 0;">
             Available on iOS and Android
           </p>
           <div style="margin-top: 15px;">
             <p style="color: #999; font-size: 12px; margin: 0;">
-              © 2024 Qwiken. All rights reserved.
+              © 2024 Qwiken Partner. All rights reserved.
             </p>
           </div>
         </div>
@@ -204,9 +204,9 @@ serve(async (req) => {
 
     // Send confirmation to user
     const { data: userEmail, error: userError } = await resend.emails.send({
-      from: 'Qwiken Support <onboarding@resend.dev>',
+      from: 'Qwiken Partner Support <onboarding@resend.dev>',
       to: [email],
-      subject: 'Thank you for contacting Qwiken',
+      subject: 'Thank you for contacting Qwiken Partner',
       html: userConfirmationHtml,
     });
 

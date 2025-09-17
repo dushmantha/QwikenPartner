@@ -47,7 +47,7 @@ class SMTPEmailService {
     port: 587,
     secure: false,
     auth: {
-      user: 'qwiken.app@gmail.com', // Qwiken email account
+      user: 'qwiken.app@gmail.com', // Qwiken Partner email account
       pass: 'qwiken_app_password_2024' // App-specific password
     }
   };
@@ -57,7 +57,7 @@ class SMTPEmailService {
       console.log('📧 [SMTP] Sending booking confirmation to:', emailData.to_email);
 
       const emailContent = {
-        from: '"Qwiken Bookings" <qwiken.app@gmail.com>',
+        from: '"Qwiken Partner Bookings" <qwiken.app@gmail.com>',
         to: emailData.to_email,
         subject: `✅ Booking Confirmed - ${emailData.service_name} at ${emailData.shop_name}`,
         html: this.generateBookingConfirmationHTML(emailData),
@@ -88,7 +88,7 @@ class SMTPEmailService {
       console.log('🏪 [SMTP] Sending business notification to:', notificationData.business_email);
 
       const emailContent = {
-        from: '"Qwiken Business Portal" <qwiken.app@gmail.com>',
+        from: '"Qwiken Partner Business Portal" <qwiken.app@gmail.com>',
         to: notificationData.business_email,
         subject: `🔔 New Booking: ${notificationData.service_name} - ${notificationData.customer_name}`,
         html: this.generateBusinessNotificationHTML(notificationData),
@@ -163,7 +163,7 @@ class SMTPEmailService {
         <div class="container">
           <div class="header">
             <h1>✅ Booking Confirmed</h1>
-            <p>Qwiken - Your Beauty & Wellness Partner</p>
+            <p>Qwiken Partner - Your Beauty & Wellness Partner</p>
           </div>
           
           <div class="content">
@@ -203,8 +203,8 @@ class SMTPEmailService {
           </div>
           
           <div class="footer">
-            <p>Thank you for choosing Qwiken!</p>
-            <p>© 2025 Qwiken. All rights reserved.</p>
+            <p>Thank you for choosing Qwiken Partner!</p>
+            <p>© 2025 Qwiken Partner. All rights reserved.</p>
           </div>
         </div>
       </body>
@@ -214,7 +214,7 @@ class SMTPEmailService {
 
   private generateBookingConfirmationText(data: EmailData): string {
     return `
-✅ BOOKING CONFIRMED - Qwiken
+✅ BOOKING CONFIRMED - Qwiken Partner
 
 Hello ${data.customer_name}!
 
@@ -239,9 +239,9 @@ IMPORTANT REMINDERS:
 • Please arrive 5-10 minutes early
 • Contact us if you need to reschedule
 
-Thank you for choosing Qwiken!
+Thank you for choosing Qwiken Partner!
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-© 2025 Qwiken. All rights reserved.
+© 2025 Qwiken Partner. All rights reserved.
     `.trim();
   }
 
@@ -266,12 +266,12 @@ Thank you for choosing Qwiken!
         <div class="container">
           <div class="header">
             <h1>🔔 New Booking Alert</h1>
-            <p>Qwiken Business Portal</p>
+            <p>Qwiken Partner Business Portal</p>
           </div>
           
           <div class="content">
             <h2>Hello ${data.business_name}!</h2>
-            <p>You have received a new booking through Qwiken.</p>
+            <p>You have received a new booking through Qwiken Partner.</p>
             
             <div class="customer-info">
               <h3>👤 Customer Information</h3>
@@ -304,8 +304,8 @@ Thank you for choosing Qwiken!
           </div>
           
           <div class="footer">
-            <p>Qwiken Business Portal</p>
-            <p>© 2025 Qwiken. All rights reserved.</p>
+            <p>Qwiken Partner Business Portal</p>
+            <p>© 2025 Qwiken Partner. All rights reserved.</p>
           </div>
         </div>
       </body>
@@ -315,11 +315,11 @@ Thank you for choosing Qwiken!
 
   private generateBusinessNotificationText(data: BusinessNotificationData): string {
     return `
-🔔 NEW BOOKING ALERT - Qwiken Business Portal
+🔔 NEW BOOKING ALERT - Qwiken Partner Business Portal
 
 Hello ${data.business_name}!
 
-You have received a new booking through Qwiken.
+You have received a new booking through Qwiken Partner.
 
 CUSTOMER INFORMATION:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -346,9 +346,9 @@ NEXT STEPS:
 
 Please respond promptly to maintain good customer service.
 
-Qwiken Business Portal
+Qwiken Partner Business Portal
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-© 2025 Qwiken. All rights reserved.
+© 2025 Qwiken Partner. All rights reserved.
     `.trim();
   }
 }

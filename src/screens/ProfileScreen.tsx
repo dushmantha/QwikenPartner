@@ -140,6 +140,7 @@ const ProfileScreen = ({ navigation }: { navigation: any }) => {
   const [isEditing, setIsEditing] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
   const [isProfileLoading, setIsProfileLoading] = useState(true);
+  const [refreshTrigger, setRefreshTrigger] = useState(0);
   const [profile, setProfile] = useState<ProfileData | null>(null);
   const [tempProfile, setTempProfile] = useState<ProfileData | null>(null);
   const [showUpgradeModal, setShowUpgradeModal] = useState(false);
@@ -476,7 +477,7 @@ const ProfileScreen = ({ navigation }: { navigation: any }) => {
     };
 
     fetchUserProfile();
-  }, [userId]); // Only re-run when user changes, not when account type changes
+  }, [user, userId, refreshTrigger]); // Re-run when user, userId or refreshTrigger changes
 
   // Load skills and certifications for provider accounts
   useEffect(() => {
@@ -1592,6 +1593,23 @@ const ProfileScreen = ({ navigation }: { navigation: any }) => {
     );
   }
 
+  // Show loading indicator while profile is loading
+  if (isProfileLoading) {
+    return (
+      <SafeAreaView style={styles.container}>
+        <StatusBar backgroundColor="#F0FFFE" barStyle="dark-content" />
+        <View style={styles.header}>
+          <Text style={styles.headerTitle}>My Profile</Text>
+        </View>
+        <View style={styles.loadingContainer}>
+          <ActivityIndicator size="large" color="#845EC2" />
+          <Text style={styles.loadingText}>Loading profile...</Text>
+        </View>
+      </SafeAreaView>
+    );
+  }
+
+  // Show error state only if loading is complete but no profile was loaded
   if (!profile) {
     return (
       <SafeAreaView style={styles.container}>
@@ -1602,9 +1620,13 @@ const ProfileScreen = ({ navigation }: { navigation: any }) => {
         <View style={styles.errorContainer}>
           <Ionicons name="alert-circle-outline" size={48} color="#845EC2" />
           <Text style={styles.errorText}>Failed to load profile</Text>
-          <TouchableOpacity 
-            style={styles.retryButton} 
-            onPress={() => window.location.reload()}
+          <TouchableOpacity
+            style={styles.retryButton}
+            onPress={() => {
+              setProfile(null);
+              setIsProfileLoading(true);
+              setRefreshTrigger(prev => prev + 1); // Trigger useEffect re-run
+            }}
           >
             <Text style={styles.retryButtonText}>Retry</Text>
           </TouchableOpacity>

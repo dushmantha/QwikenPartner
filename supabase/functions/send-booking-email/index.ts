@@ -47,7 +47,7 @@ serve(async (req) => {
 
     // Prepare email data for Resend - using verified Resend emails
     const emailData = {
-      from: from_email && from_name ? `${from_name} <${from_email}>` : 'Qwiken <noreply@qwiken.org>',
+      from: from_email && from_name ? `${from_name} <${from_email}>` : 'Qwiken Partner <noreply@qwiken.org>',
       to: [to],
       subject: subject,
       html: html,

@@ -53,7 +53,7 @@ serve(async (req) => {
         console.log(`📱 Sending SMS to ${customer.phone}`)
 
         // Format the message with provider info
-        const fullMessage = `${message}\n\n---\n${providerInfo?.name || 'Qwiken'}\n${providerInfo?.phone || ''}`
+        const fullMessage = `${message}\n\n---\n${providerInfo?.name || 'Qwiken Partner'}\n${providerInfo?.phone || ''}`
 
         const smsData = new URLSearchParams({
           From: TWILIO_PHONE_NUMBER,

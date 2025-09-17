@@ -212,7 +212,7 @@ class SupabaseEmailService {
       <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Booking Confirmed - Qwiken</title>
+        <title>Booking Confirmed - Qwiken Partner</title>
         <style>
           * { margin: 0; padding: 0; box-sizing: border-box; }
           body { 
@@ -403,7 +403,7 @@ class SupabaseEmailService {
           <div class="footer">
             <div class="footer-logo">QWIKEN</div>
             <p>Thank you for choosing us for your beauty and wellness needs!</p>
-            <p style="margin-top: 15px; font-size: 14px;">© 2025 Qwiken. All rights reserved.</p>
+            <p style="margin-top: 15px; font-size: 14px;">© 2025 Qwiken Partner. All rights reserved.</p>
           </div>
         </div>
       </body>
@@ -413,7 +413,7 @@ class SupabaseEmailService {
 
   private generateBookingConfirmationText(data: EmailData): string {
     return `
-✅ BOOKING CONFIRMED - Qwiken
+✅ BOOKING CONFIRMED - Qwiken Partner
 
 Hello ${data.customer_name}!
 
@@ -438,9 +438,9 @@ IMPORTANT REMINDERS:
 • Please arrive 5-10 minutes early
 • Contact us if you need to reschedule
 
-Thank you for choosing Qwiken!
+Thank you for choosing Qwiken Partner!
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-© 2025 Qwiken. All rights reserved.
+© 2025 Qwiken Partner. All rights reserved.
     `.trim();
   }
 
@@ -458,7 +458,7 @@ Thank you for choosing Qwiken!
       <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>New Booking Alert - Qwiken Business</title>
+        <title>New Booking Alert - Qwiken Partner Business</title>
         <style>
           * { margin: 0; padding: 0; box-sizing: border-box; }
           body { 
@@ -569,7 +569,7 @@ Thank you for choosing Qwiken!
           
           <div class="content">
             <h1 class="greeting">Hello ${data.business_name}! 🎉</h1>
-            <p>Excellent news! You have received a new booking through Qwiken.</p>
+            <p>Excellent news! You have received a new booking through Qwiken Partner.</p>
             
             <div style="background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%); border-radius: 15px; padding: 25px; margin: 20px 0; border-left: 5px solid #3b82f6;">
               <h3 style="color: #1e40af; margin-bottom: 15px;">👤 Customer Information</h3>
@@ -628,11 +628,11 @@ Thank you for choosing Qwiken!
 
   private generateBusinessNotificationText(data: BusinessNotificationData): string {
     return `
-🔔 NEW BOOKING ALERT - Qwiken Business Portal
+🔔 NEW BOOKING ALERT - Qwiken Partner Business Portal
 
 Hello ${data.business_name}!
 
-You have received a new booking through Qwiken.
+You have received a new booking through Qwiken Partner.
 
 CUSTOMER INFORMATION:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -659,9 +659,9 @@ NEXT STEPS:
 
 Please respond promptly to maintain good customer service.
 
-Qwiken Business Portal
+Qwiken Partner Business Portal
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-© 2025 Qwiken. All rights reserved.
+© 2025 Qwiken Partner. All rights reserved.
     `.trim();
   }
 

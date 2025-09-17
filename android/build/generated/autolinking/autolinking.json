@@ -1,25 +1,25 @@
 {
-  "root": "/Users/tharakadushmantha/CascadeProjects/BuzyBees",
-  "reactNativePath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native",
+  "root": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner",
+  "reactNativePath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native",
   "reactNativeVersion": "0.75",
   "dependencies": {
     "@invertase/react-native-apple-authentication": {
-      "root": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/@invertase/react-native-apple-authentication",
+      "root": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/@invertase/react-native-apple-authentication",
       "name": "@invertase/react-native-apple-authentication",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/@invertase/react-native-apple-authentication/RNAppleAuthentication.podspec",
+          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/@invertase/react-native-apple-authentication/RNAppleAuthentication.podspec",
           "version": "2.4.1",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/@invertase/react-native-apple-authentication/android",
+          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/@invertase/react-native-apple-authentication/android",
           "packageImportPath": "import com.RNAppleAuthentication.AppleAuthenticationAndroidPackage;",
           "packageInstance": "new AppleAuthenticationAndroidPackage()",
           "buildTypes": [],
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/@invertase/react-native-apple-authentication/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/@invertase/react-native-apple-authentication/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -28,23 +28,23 @@
       }
     },
     "@react-native-async-storage/async-storage": {
-      "root": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/@react-native-async-storage/async-storage",
+      "root": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/@react-native-async-storage/async-storage",
       "name": "@react-native-async-storage/async-storage",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/@react-native-async-storage/async-storage/RNCAsyncStorage.podspec",
+          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/@react-native-async-storage/async-storage/RNCAsyncStorage.podspec",
           "version": "1.24.0",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/@react-native-async-storage/async-storage/android",
+          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/@react-native-async-storage/async-storage/android",
           "packageImportPath": "import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;",
           "packageInstance": "new AsyncStoragePackage()",
           "buildTypes": [],
           "libraryName": "rnasyncstorage",
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -53,23 +53,23 @@
       }
     },
     "@react-native-community/datetimepicker": {
-      "root": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/@react-native-community/datetimepicker",
+      "root": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/@react-native-community/datetimepicker",
       "name": "@react-native-community/datetimepicker",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/@react-native-community/datetimepicker/RNDateTimePicker.podspec",
+          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/@react-native-community/datetimepicker/RNDateTimePicker.podspec",
           "version": "8.4.2",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/@react-native-community/datetimepicker/android",
+          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/@react-native-community/datetimepicker/android",
           "packageImportPath": "import com.reactcommunity.rndatetimepicker.RNDateTimePickerPackage;",
           "packageInstance": "new RNDateTimePickerPackage()",
           "buildTypes": [],
           "libraryName": "RNDateTimePickerCGen",
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/@react-native-community/datetimepicker/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/@react-native-community/datetimepicker/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -78,23 +78,23 @@
       }
     },
     "@react-native-community/geolocation": {
-      "root": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/@react-native-community/geolocation",
+      "root": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/@react-native-community/geolocation",
       "name": "@react-native-community/geolocation",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/@react-native-community/geolocation/react-native-geolocation.podspec",
+          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/@react-native-community/geolocation/react-native-geolocation.podspec",
           "version": "3.4.0",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/@react-native-community/geolocation/android",
+          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/@react-native-community/geolocation/android",
           "packageImportPath": "import com.reactnativecommunity.geolocation.GeolocationPackage;",
           "packageInstance": "new GeolocationPackage()",
           "buildTypes": [],
           "libraryName": "RNCGeolocationSpec",
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/@react-native-community/geolocation/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/@react-native-community/geolocation/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -103,22 +103,22 @@
       }
     },
     "@react-native-community/netinfo": {
-      "root": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/@react-native-community/netinfo",
+      "root": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/@react-native-community/netinfo",
       "name": "@react-native-community/netinfo",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/@react-native-community/netinfo/react-native-netinfo.podspec",
+          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/@react-native-community/netinfo/react-native-netinfo.podspec",
           "version": "11.4.1",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/@react-native-community/netinfo/android",
+          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/@react-native-community/netinfo/android",
           "packageImportPath": "import com.reactnativecommunity.netinfo.NetInfoPackage;",
           "packageInstance": "new NetInfoPackage()",
           "buildTypes": [],
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/@react-native-community/netinfo/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/@react-native-community/netinfo/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -127,11 +127,11 @@
       }
     },
     "@react-native-community/push-notification-ios": {
-      "root": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/@react-native-community/push-notification-ios",
+      "root": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/@react-native-community/push-notification-ios",
       "name": "@react-native-community/push-notification-ios",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/@react-native-community/push-notification-ios/RNCPushNotificationIOS.podspec",
+          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/@react-native-community/push-notification-ios/RNCPushNotificationIOS.podspec",
           "version": "1.11.0",
           "configurations": [],
           "scriptPhases": []
@@ -140,17 +140,17 @@
       }
     },
     "@react-native-google-signin/google-signin": {
-      "root": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/@react-native-google-signin/google-signin",
+      "root": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/@react-native-google-signin/google-signin",
       "name": "@react-native-google-signin/google-signin",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/@react-native-google-signin/google-signin/RNGoogleSignin.podspec",
+          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/@react-native-google-signin/google-signin/RNGoogleSignin.podspec",
           "version": "15.0.0",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/@react-native-google-signin/google-signin/android",
+          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/@react-native-google-signin/google-signin/android",
           "packageImportPath": "import com.reactnativegooglesignin.RNGoogleSigninPackage;",
           "packageInstance": "new RNGoogleSigninPackage()",
           "buildTypes": [],
@@ -158,7 +158,7 @@
           "componentDescriptors": [
             "RNGoogleSigninButtonComponentDescriptor"
           ],
-          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/@react-native-google-signin/google-signin/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -167,17 +167,17 @@
       }
     },
     "lottie-react-native": {
-      "root": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/lottie-react-native",
+      "root": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/lottie-react-native",
       "name": "lottie-react-native",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/lottie-react-native/lottie-react-native.podspec",
+          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/lottie-react-native/lottie-react-native.podspec",
           "version": "6.7.2",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/lottie-react-native/android",
+          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/lottie-react-native/android",
           "packageImportPath": "import com.airbnb.android.react.lottie.LottiePackage;",
           "packageInstance": "new LottiePackage()",
           "buildTypes": [],
@@ -185,7 +185,7 @@
           "componentDescriptors": [
             "LottieAnimationViewComponentDescriptor"
           ],
-          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/lottie-react-native/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/lottie-react-native/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -194,22 +194,22 @@
       }
     },
     "react-native-config": {
-      "root": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-config",
+      "root": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-config",
       "name": "react-native-config",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-config/react-native-config.podspec",
+          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-config/react-native-config.podspec",
           "version": "1.5.6",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-config/android",
+          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-config/android",
           "packageImportPath": "import com.lugg.RNCConfig.RNCConfigPackage;",
           "packageInstance": "new RNCConfigPackage()",
           "buildTypes": [],
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-config/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-config/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -218,22 +218,22 @@
       }
     },
     "react-native-fast-image": {
-      "root": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-fast-image",
+      "root": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-fast-image",
       "name": "react-native-fast-image",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-fast-image/RNFastImage.podspec",
+          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-fast-image/RNFastImage.podspec",
           "version": "8.6.3",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-fast-image/android",
+          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-fast-image/android",
           "packageImportPath": "import com.dylanvann.fastimage.FastImageViewPackage;",
           "packageInstance": "new FastImageViewPackage()",
           "buildTypes": [],
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-fast-image/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-fast-image/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -242,22 +242,22 @@
       }
     },
     "react-native-geolocation-service": {
-      "root": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-geolocation-service",
+      "root": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-geolocation-service",
       "name": "react-native-geolocation-service",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-geolocation-service/react-native-geolocation-service.podspec",
+          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-geolocation-service/react-native-geolocation-service.podspec",
           "version": "5.3.1",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-geolocation-service/android",
+          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-geolocation-service/android",
           "packageImportPath": "import com.agontuk.RNFusedLocation.RNFusedLocationPackage;",
           "packageInstance": "new RNFusedLocationPackage()",
           "buildTypes": [],
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-geolocation-service/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-geolocation-service/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -266,17 +266,17 @@
       }
     },
     "react-native-gesture-handler": {
-      "root": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-gesture-handler",
+      "root": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-gesture-handler",
       "name": "react-native-gesture-handler",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-gesture-handler/RNGestureHandler.podspec",
+          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-gesture-handler/RNGestureHandler.podspec",
           "version": "2.20.2",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-gesture-handler/android",
+          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-gesture-handler/android",
           "packageImportPath": "import com.swmansion.gesturehandler.RNGestureHandlerPackage;",
           "packageInstance": "new RNGestureHandlerPackage()",
           "buildTypes": [],
@@ -285,7 +285,7 @@
             "RNGestureHandlerButtonComponentDescriptor",
             "RNGestureHandlerRootViewComponentDescriptor"
           ],
-          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -294,22 +294,22 @@
       }
     },
     "react-native-get-random-values": {
-      "root": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-get-random-values",
+      "root": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-get-random-values",
       "name": "react-native-get-random-values",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-get-random-values/react-native-get-random-values.podspec",
+          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-get-random-values/react-native-get-random-values.podspec",
           "version": "1.11.0",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-get-random-values/android",
+          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-get-random-values/android",
           "packageImportPath": "import org.linusu.RNGetRandomValuesPackage;",
           "packageInstance": "new RNGetRandomValuesPackage()",
           "buildTypes": [],
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-get-random-values/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-get-random-values/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -318,23 +318,23 @@
       }
     },
     "react-native-image-picker": {
-      "root": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-image-picker",
+      "root": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-image-picker",
       "name": "react-native-image-picker",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-image-picker/react-native-image-picker.podspec",
+          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-image-picker/react-native-image-picker.podspec",
           "version": "7.2.3",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-image-picker/android",
+          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-image-picker/android",
           "packageImportPath": "import com.imagepicker.ImagePickerPackage;",
           "packageInstance": "new ImagePickerPackage()",
           "buildTypes": [],
           "libraryName": "RNImagePickerSpec",
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-image-picker/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-image-picker/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -343,22 +343,22 @@
       }
     },
     "react-native-linear-gradient": {
-      "root": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-linear-gradient",
+      "root": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-linear-gradient",
       "name": "react-native-linear-gradient",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-linear-gradient/BVLinearGradient.podspec",
+          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-linear-gradient/BVLinearGradient.podspec",
           "version": "2.8.3",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-linear-gradient/android",
+          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-linear-gradient/android",
           "packageImportPath": "import com.BV.LinearGradient.LinearGradientPackage;",
           "packageInstance": "new LinearGradientPackage()",
           "buildTypes": [],
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-linear-gradient/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-linear-gradient/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -367,23 +367,23 @@
       }
     },
     "react-native-permissions": {
-      "root": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-permissions",
+      "root": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-permissions",
       "name": "react-native-permissions",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-permissions/RNPermissions.podspec",
+          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-permissions/RNPermissions.podspec",
           "version": "4.1.5",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-permissions/android",
+          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-permissions/android",
           "packageImportPath": "import com.zoontek.rnpermissions.RNPermissionsPackage;",
           "packageInstance": "new RNPermissionsPackage()",
           "buildTypes": [],
           "libraryName": "RNPermissionsSpec",
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-permissions/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-permissions/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -392,17 +392,17 @@
       }
     },
     "react-native-push-notification": {
-      "root": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-push-notification",
+      "root": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-push-notification",
       "name": "react-native-push-notification",
       "platforms": {
         "ios": null,
         "android": {
-          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-push-notification/android",
+          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-push-notification/android",
           "packageImportPath": "import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;",
           "packageInstance": "new ReactNativePushNotificationPackage()",
           "buildTypes": [],
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-push-notification/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-push-notification/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -411,23 +411,23 @@
       }
     },
     "react-native-reanimated": {
-      "root": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-reanimated",
+      "root": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-reanimated",
       "name": "react-native-reanimated",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-reanimated/RNReanimated.podspec",
+          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-reanimated/RNReanimated.podspec",
           "version": "3.18.0",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-reanimated/android",
+          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-reanimated/android",
           "packageImportPath": "import com.swmansion.reanimated.ReanimatedPackage;",
           "packageInstance": "new ReanimatedPackage()",
           "buildTypes": [],
           "libraryName": "rnreanimated",
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -436,17 +436,17 @@
       }
     },
     "react-native-safe-area-context": {
-      "root": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-safe-area-context",
+      "root": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-safe-area-context",
       "name": "react-native-safe-area-context",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-safe-area-context/react-native-safe-area-context.podspec",
+          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-safe-area-context/react-native-safe-area-context.podspec",
           "version": "4.14.1",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-safe-area-context/android",
+          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-safe-area-context/android",
           "packageImportPath": "import com.th3rdwave.safeareacontext.SafeAreaContextPackage;",
           "packageInstance": "new SafeAreaContextPackage()",
           "buildTypes": [],
@@ -455,7 +455,7 @@
             "RNCSafeAreaProviderComponentDescriptor",
             "RNCSafeAreaViewComponentDescriptor"
           ],
-          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -464,17 +464,17 @@
       }
     },
     "react-native-screens": {
-      "root": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-screens",
+      "root": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-screens",
       "name": "react-native-screens",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-screens/RNScreens.podspec",
+          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-screens/RNScreens.podspec",
           "version": "3.37.0",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-screens/android",
+          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-screens/android",
           "packageImportPath": "import com.swmansion.rnscreens.RNScreensPackage;",
           "packageInstance": "new RNScreensPackage()",
           "buildTypes": [],
@@ -490,7 +490,7 @@
             "RNSScreenComponentDescriptor",
             "RNSModalScreenComponentDescriptor"
           ],
-          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -499,22 +499,22 @@
       }
     },
     "react-native-splash-screen": {
-      "root": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-splash-screen",
+      "root": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-splash-screen",
       "name": "react-native-splash-screen",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-splash-screen/react-native-splash-screen.podspec",
+          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-splash-screen/react-native-splash-screen.podspec",
           "version": "3.3.0",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-splash-screen/android",
+          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-splash-screen/android",
           "packageImportPath": "import org.devio.rn.splashscreen.SplashScreenReactPackage;",
           "packageInstance": "new SplashScreenReactPackage()",
           "buildTypes": [],
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-splash-screen/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-splash-screen/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -523,17 +523,17 @@
       }
     },
     "react-native-svg": {
-      "root": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-svg",
+      "root": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-svg",
       "name": "react-native-svg",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-svg/RNSVG.podspec",
+          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-svg/RNSVG.podspec",
           "version": "15.12.1",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-svg/android",
+          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-svg/android",
           "packageImportPath": "import com.horcrux.svg.SvgPackage;",
           "packageInstance": "new SvgPackage()",
           "buildTypes": [],
@@ -569,7 +569,7 @@
             "RNSVGTSpanComponentDescriptor",
             "RNSVGUseComponentDescriptor"
           ],
-          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -578,23 +578,23 @@
       }
     },
     "react-native-vector-icons": {
-      "root": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-vector-icons",
+      "root": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-vector-icons",
       "name": "react-native-vector-icons",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-vector-icons/RNVectorIcons.podspec",
+          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-vector-icons/RNVectorIcons.podspec",
           "version": "10.2.0",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-vector-icons/android",
+          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-vector-icons/android",
           "packageImportPath": "import com.oblador.vectoricons.VectorIconsPackage;",
           "packageInstance": "new VectorIconsPackage()",
           "buildTypes": [],
           "libraryName": "RNVectorIconsSpec",
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -603,17 +603,17 @@
       }
     },
     "react-native-webview": {
-      "root": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-webview",
+      "root": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-webview",
       "name": "react-native-webview",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-webview/react-native-webview.podspec",
+          "podspecPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-webview/react-native-webview.podspec",
           "version": "13.15.0",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-webview/android",
+          "sourceDir": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-webview/android",
           "packageImportPath": "import com.reactnativecommunity.webview.RNCWebViewPackage;",
           "packageInstance": "new RNCWebViewPackage()",
           "buildTypes": [],
@@ -621,7 +621,7 @@
           "componentDescriptors": [
             "RNCWebViewComponentDescriptor"
           ],
-          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/node_modules/react-native-webview/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-webview/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -791,7 +791,7 @@
         {
           "name": "--path <path>",
           "description": "Path to the React Native project root.",
-          "default": "/Users/tharakadushmantha/CascadeProjects/BuzyBees"
+          "default": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner"
         },
         {
           "name": "--platform <string>",
@@ -842,8 +842,7 @@
         },
         {
           "name": "--terminal <string>",
-          "description": "Launches the Metro Bundler in a new window using the specified terminal path.",
-          "default": "iTerm.app"
+          "description": "Launches the Metro Bundler in a new window using the specified terminal path."
         },
         {
           "name": "--binary-path <string>",
@@ -1002,8 +1001,7 @@
         },
         {
           "name": "--terminal <string>",
-          "description": "Launches the Metro Bundler in a new window using the specified terminal path.",
-          "default": "iTerm.app"
+          "description": "Launches the Metro Bundler in a new window using the specified terminal path."
         },
         {
           "name": "--appId <string>",
@@ -1078,19 +1076,19 @@
   "assets": [],
   "project": {
     "ios": {
-      "sourceDir": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/ios",
+      "sourceDir": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/ios",
       "xcodeProject": {
-        "name": "BuzyBees.xcworkspace",
+        "name": "QwikenPartner.xcworkspace",
         "path": ".",
         "isWorkspace": true
       },
       "assets": []
     },
     "android": {
-      "sourceDir": "/Users/tharakadushmantha/CascadeProjects/BuzyBees/android",
+      "sourceDir": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/android",
       "appName": "app",
-      "packageName": "org.app.qwiken",
-      "applicationId": "org.app.qwiken",
+      "packageName": "org.app.qwikenpartner",
+      "applicationId": "org.app.qwikenpartner",
       "mainActivity": ".MainActivity",
       "assets": []
     }

@@ -145,7 +145,7 @@ serve(async (req) => {
       if (yearlyProducts.data.length === 0) {
         // Create yearly product
         yearlyProduct = await stripe.products.create({
-          name: 'Qwiken Pro - Yearly',
+          name: 'Qwiken Partner Pro - Yearly',
           description: 'Yearly subscription with all premium features',
           metadata: {
             plan_type: 'yearly',

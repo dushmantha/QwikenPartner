@@ -53,7 +53,7 @@ interface EmailResult {
 class DirectEmailService {
   private readonly RESEND_API_KEY = 're_Uv4AnqNp_9xJmJKWLgpLgK8rNSZrqCYxt';
   private readonly FROM_EMAIL = 'onboarding@resend.dev';
-  private readonly FROM_NAME = 'Qwiken Bookings';
+  private readonly FROM_NAME = 'Qwiken Partner Bookings';
 
   async sendBookingConfirmation(emailData: EmailData): Promise<EmailResult> {
     try {
@@ -152,7 +152,7 @@ class DirectEmailService {
       <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Booking Confirmation - Qwiken</title>
+        <title>Booking Confirmation - Qwiken Partner</title>
         <style>
           body { 
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -221,7 +221,7 @@ class DirectEmailService {
         <div class="container">
           <div class="header">
             <h1>🎉 Booking Confirmed!</h1>
-            <p style="margin: 10px 0 0 0;">Qwiken</p>
+            <p style="margin: 10px 0 0 0;">Qwiken Partner</p>
           </div>
           
           <div class="content">
@@ -295,8 +295,8 @@ class DirectEmailService {
           </div>
           
           <div class="footer">
-            <p>Thank you for choosing Qwiken!</p>
-            <p style="margin: 5px 0;">© 2025 Qwiken. All rights reserved.</p>
+            <p>Thank you for choosing Qwiken Partner!</p>
+            <p style="margin: 5px 0;">© 2025 Qwiken Partner. All rights reserved.</p>
           </div>
         </div>
       </body>
@@ -306,7 +306,7 @@ class DirectEmailService {
 
   private generateConfirmationText(data: EmailData): string {
     return `
-Booking Confirmation - Qwiken
+Booking Confirmation - Qwiken Partner
 
 Hello ${data.customer_name}!
 
@@ -325,7 +325,7 @@ ${data.shop_address ? `Location: ${data.shop_address}` : ''}
 
 We'll send you a reminder 6 hours before your appointment.
 
-Thank you for choosing Qwiken!
+Thank you for choosing Qwiken Partner!
     `.trim();
   }
 
@@ -356,7 +356,7 @@ Thank you for choosing Qwiken!
         <div class="container">
           <div class="header">
             <h1>📅 New Booking Alert</h1>
-            <p style="margin: 5px 0 0 0; opacity: 0.9;">Qwiken Business Portal</p>
+            <p style="margin: 5px 0 0 0; opacity: 0.9;">Qwiken Partner Business Portal</p>
           </div>
           
           <div class="content">
@@ -365,7 +365,7 @@ Thank you for choosing Qwiken!
             </div>
             
             <h2>Hello ${data.business_name}!</h2>
-            <p>You have received a new booking through Qwiken.</p>
+            <p>You have received a new booking through Qwiken Partner.</p>
             
             <div class="customer-info">
               <h3 style="margin-top: 0; color: #2196F3;">👤 Customer Information</h3>
@@ -445,8 +445,8 @@ Thank you for choosing Qwiken!
           </div>
           
           <div class="footer">
-            <p>Qwiken Business Portal</p>
-            <p style="margin: 5px 0;">© 2025 Qwiken. All rights reserved.</p>
+            <p>Qwiken Partner Business Portal</p>
+            <p style="margin: 5px 0;">© 2025 Qwiken Partner. All rights reserved.</p>
           </div>
         </div>
       </body>
@@ -456,11 +456,11 @@ Thank you for choosing Qwiken!
 
   private generateBusinessNotificationText(data: BusinessNotificationData): string {
     return `
-New Booking Alert - Qwiken
+New Booking Alert - Qwiken Partner
 
 Hello ${data.business_name}!
 
-You have received a new booking through Qwiken.
+You have received a new booking through Qwiken Partner.
 
 CUSTOMER INFORMATION:
 Name: ${data.customer_name}
@@ -484,8 +484,8 @@ NEXT STEPS:
 
 Please respond promptly to maintain good customer service.
 
-Qwiken Business Portal
-© 2025 Qwiken. All rights reserved.
+Qwiken Partner Business Portal
+© 2025 Qwiken Partner. All rights reserved.
     `.trim();
   }
 }

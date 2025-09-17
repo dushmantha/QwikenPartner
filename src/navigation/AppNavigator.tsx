@@ -27,8 +27,7 @@ import BookingDateTimeEnhancedScreen from '../screens/BookingDateTimeScreenEnhan
 import BookingsScreen from '../screens/BookingsScreen';
 import FavoritesScreen from '../screens/FavoritesScreen';
 import ProfileScreen from '../screens/ProfileScreen';
-import ReviewScreen from '../screens/ReviewScreen';
-import SearchScreen from '../screens/SearchScreen';
+
 import AllReviewsScreen from '../screens/AllReviewsScreen';
 
 // Provider-specific screens
@@ -109,20 +108,23 @@ const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => 
 
   useEffect(() => {
     let mounted = true;
-    
+
     // Get initial session with proper error handling
     const getInitialSession = async () => {
+      const startTime = Date.now();
+      const minSplashTime = 2000; // Show splash for at least 2 seconds
+
       try {
         console.log('🔄 Getting initial session at app startup...');
-        
+
         // Check if supabase is properly imported
         if (!supabase) {
           throw new Error('Supabase client not initialized');
         }
-        
+
         // Get the current session from Supabase
         const { data: { session: initialSession }, error } = await supabase.auth.getSession();
-        
+
         if (error) {
           console.error('❌ Error getting initial session:', error);
           // Clear any invalid session
@@ -145,8 +147,16 @@ const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => 
         }
       } finally {
         if (mounted) {
-          setIsLoading(false);
-          console.log('✅ Auth initialization complete');
+          // Ensure splash screen shows for minimum time
+          const elapsedTime = Date.now() - startTime;
+          const remainingTime = Math.max(0, minSplashTime - elapsedTime);
+
+          setTimeout(() => {
+            if (mounted) {
+              setIsLoading(false);
+              console.log('✅ Auth initialization complete');
+            }
+          }, remainingTime);
         }
       }
     };
