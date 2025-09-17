@@ -1,0 +1,6 @@
+module Pods_QwikenPartner {
+  umbrella header "Pods-QwikenPartner-umbrella.h"
+
+  export *
+  module * { export * }
+}

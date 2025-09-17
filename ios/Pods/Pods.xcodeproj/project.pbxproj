@@ -3697,8 +3697,8 @@
 		46EB2E00028470 /* RNCWebViewModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00013A30 /* RNCWebViewModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		46EB2E00028480 /* RNCWKProcessPoolManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00013A50 /* RNCWKProcessPoolManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		46EB2E000284E0 /* react-native-webview-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000284D0 /* react-native-webview-dummy.m */; };
-		46EB2E000285C0 /* Pods-BuzyBees-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000285B0 /* Pods-BuzyBees-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E00028620 /* Pods-BuzyBees-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00028610 /* Pods-BuzyBees-dummy.m */; };
+		46EB2E000285C0 /* Pods-QwikenPartner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000285B0 /* Pods-QwikenPartner-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00028620 /* Pods-QwikenPartner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00028610 /* Pods-QwikenPartner-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -14537,21 +14537,22 @@
 		46EB2E000284B0 /* react-native-webview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "react-native-webview.release.xcconfig"; sourceTree = "<group>"; };
 		46EB2E000284C0 /* react-native-webview-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "react-native-webview-prefix.pch"; sourceTree = "<group>"; };
 		46EB2E000284D0 /* react-native-webview-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "react-native-webview-dummy.m"; sourceTree = "<group>"; };
-		46EB2E00028580 /* Pods-BuzyBees.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BuzyBees.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00028590 /* Pods-BuzyBees.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BuzyBees.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E000285A0 /* Pods-BuzyBees.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BuzyBees.modulemap"; sourceTree = "<group>"; };
-		46EB2E000285B0 /* Pods-BuzyBees-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BuzyBees-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E000285D0 /* Pods-BuzyBees-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BuzyBees-frameworks.sh"; sourceTree = "<group>"; };
-		46EB2E000285E0 /* Pods-BuzyBees-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BuzyBees-resources.sh"; sourceTree = "<group>"; };
-		46EB2E000285F0 /* Pods-BuzyBees-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BuzyBees-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EB2E00028600 /* Pods-BuzyBees-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BuzyBees-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46EB2E00028610 /* Pods-BuzyBees-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BuzyBees-dummy.m"; sourceTree = "<group>"; };
+		46EB2E00028580 /* Pods-QwikenPartner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QwikenPartner.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00028590 /* Pods-QwikenPartner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QwikenPartner.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E000285A0 /* Pods-QwikenPartner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QwikenPartner.modulemap"; sourceTree = "<group>"; };
+		46EB2E000285B0 /* Pods-QwikenPartner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QwikenPartner-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E000285D0 /* Pods-QwikenPartner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QwikenPartner-frameworks.sh"; sourceTree = "<group>"; };
+		46EB2E000285E0 /* Pods-QwikenPartner-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QwikenPartner-resources.sh"; sourceTree = "<group>"; };
+		46EB2E000285F0 /* Pods-QwikenPartner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QwikenPartner-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E00028600 /* Pods-QwikenPartner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QwikenPartner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E00028610 /* Pods-QwikenPartner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QwikenPartner-dummy.m"; sourceTree = "<group>"; };
 		4F3E9C98444FA55E416B857143C48013 /* React-RuntimeHermes */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-RuntimeHermes"; path = "libReact-RuntimeHermes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B5347C9A6E93B7D4CFC3673BA6FB7E /* RNScreens */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = RNScreens; path = libRNScreens.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		51BA97E8B5085EFFB47BC9C0B785CEA7 /* lottie-ios */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "lottie-ios"; path = "liblottie-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FCF98CEFF94C742080B6965D537AD0 /* react-native-safe-area-context */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "react-native-safe-area-context"; path = "libreact-native-safe-area-context.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56554E6B3CBAABB979BD4133E3F13C59 /* RNSVG-RNSVGFilters */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "RNSVG-RNSVGFilters"; path = RNSVGFilters.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		5737DDB4BC95AD399B3206838AB97095 /* RNCAsyncStorage */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = RNCAsyncStorage; path = libRNCAsyncStorage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1204E9814E5B7521A98BAD38027486 /* Pods-QwikenPartner */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-QwikenPartner"; path = "libPods-QwikenPartner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AA54A19E2135E09B9C8C0767385FD3A /* React-graphics */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-graphics"; path = "libReact-graphics.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E4674603A5D5B9215FFA0F8E69F8B71 /* libwebp */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libwebp; path = liblibwebp.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D5A56E763D6E7C4FBE797565062EEA /* React-nativeconfig */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-nativeconfig"; path = "libReact-nativeconfig.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -14599,7 +14600,6 @@
 		C88D8F609983AB0002AA796EE4C108C4 /* react-native-get-random-values */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "react-native-get-random-values"; path = "libreact-native-get-random-values.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C941106D9D54AE237C5110F5638389AC /* React-Mapbuffer */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-Mapbuffer"; path = "libReact-Mapbuffer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9CF62342D0D8A46D8176D06AABE411 /* react-native-image-picker */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "react-native-image-picker"; path = "libreact-native-image-picker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE14D291B5F7AC462AF11E76FAAE14DB /* Pods-BuzyBees */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-BuzyBees"; path = "libPods-BuzyBees.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA45A2349847B8CEAC9ABF565A04BD0 /* React-ImageManager */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-ImageManager"; path = "libReact-ImageManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D22EED118A762A7D7BC88A4ADBB7026E /* React-RuntimeCore */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-RuntimeCore"; path = "libReact-RuntimeCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C775614AC76D44CECB6BE08B022F1F /* ReactCommon */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = ReactCommon; path = libReactCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -15398,7 +15398,7 @@
 				62060F5D524AE8173817ADD9482A0FEB /* lottie-ios-LottiePrivacyInfo */,
 				0F8D5091C801A6ECB9A173DA0E385A29 /* lottie-react-native */,
 				914D2B3007F2D4566ACCA456F0D3FC12 /* lottie-react-native-Lottie_React_Native_Privacy */,
-				CE14D291B5F7AC462AF11E76FAAE14DB /* Pods-BuzyBees */,
+				5A1204E9814E5B7521A98BAD38027486 /* Pods-QwikenPartner */,
 				3347A1AB6546F0A3977529B8F199DC41 /* PromisesObjC */,
 				3F238BB22C5201CE689CAF2F766AED95 /* PromisesObjC-FBLPromises_Privacy */,
 				1936453FF2A7E3A13063C4917C4D5598 /* RCT-Folly */,
@@ -15494,7 +15494,7 @@
 		46EB2E00000070 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00028570 /* Pods-BuzyBees */,
+				46EB2E00028570 /* Pods-QwikenPartner */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -25076,21 +25076,21 @@
 			path = "../../ios/Pods/Target Support Files/react-native-webview";
 			sourceTree = "<group>";
 		};
-		46EB2E00028570 /* Pods-BuzyBees */ = {
+		46EB2E00028570 /* Pods-QwikenPartner */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000285A0 /* Pods-BuzyBees.modulemap */,
-				46EB2E00028600 /* Pods-BuzyBees-acknowledgements.markdown */,
-				46EB2E000285F0 /* Pods-BuzyBees-acknowledgements.plist */,
-				46EB2E00028610 /* Pods-BuzyBees-dummy.m */,
-				46EB2E000285D0 /* Pods-BuzyBees-frameworks.sh */,
-				46EB2E000285E0 /* Pods-BuzyBees-resources.sh */,
-				46EB2E000285B0 /* Pods-BuzyBees-umbrella.h */,
-				46EB2E00028590 /* Pods-BuzyBees.debug.xcconfig */,
-				46EB2E00028580 /* Pods-BuzyBees.release.xcconfig */,
+				46EB2E000285A0 /* Pods-QwikenPartner.modulemap */,
+				46EB2E00028600 /* Pods-QwikenPartner-acknowledgements.markdown */,
+				46EB2E000285F0 /* Pods-QwikenPartner-acknowledgements.plist */,
+				46EB2E00028610 /* Pods-QwikenPartner-dummy.m */,
+				46EB2E000285D0 /* Pods-QwikenPartner-frameworks.sh */,
+				46EB2E000285E0 /* Pods-QwikenPartner-resources.sh */,
+				46EB2E000285B0 /* Pods-QwikenPartner-umbrella.h */,
+				46EB2E00028590 /* Pods-QwikenPartner.debug.xcconfig */,
+				46EB2E00028580 /* Pods-QwikenPartner.release.xcconfig */,
 			);
-			name = "Pods-BuzyBees";
-			path = "Target Support Files/Pods-BuzyBees";
+			name = "Pods-QwikenPartner";
+			path = "Target Support Files/Pods-QwikenPartner";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -27616,7 +27616,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E000285C0 /* Pods-BuzyBees-umbrella.h in Headers */,
+				46EB2E000285C0 /* Pods-QwikenPartner-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -28070,6 +28070,120 @@
 			name = RNScreens;
 			productName = RNScreens;
 			productReference = 50B5347C9A6E93B7D4CFC3673BA6FB7E /* RNScreens */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2335542D2B813251C2CA9719C1035D8F /* Pods-QwikenPartner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EB2E00028500 /* Build configuration list for PBXNativeTarget "Pods-QwikenPartner" */;
+			buildPhases = (
+				46EB2E00028540 /* Headers */,
+				46EB2E00028550 /* Sources */,
+				46EB2E00028560 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46EB2E000286A0 /* PBXTargetDependency */,
+				46EB2E000286C0 /* PBXTargetDependency */,
+				46EB2E000286E0 /* PBXTargetDependency */,
+				46EB2E00028700 /* PBXTargetDependency */,
+				46EB2E00028720 /* PBXTargetDependency */,
+				46EB2E00028740 /* PBXTargetDependency */,
+				46EB2E00028760 /* PBXTargetDependency */,
+				46EB2E00028780 /* PBXTargetDependency */,
+				46EB2E000287A0 /* PBXTargetDependency */,
+				46EB2E000287C0 /* PBXTargetDependency */,
+				46EB2E000287E0 /* PBXTargetDependency */,
+				46EB2E00028800 /* PBXTargetDependency */,
+				46EB2E00028820 /* PBXTargetDependency */,
+				46EB2E00028840 /* PBXTargetDependency */,
+				46EB2E00028860 /* PBXTargetDependency */,
+				46EB2E00028880 /* PBXTargetDependency */,
+				46EB2E000288A0 /* PBXTargetDependency */,
+				46EB2E000288C0 /* PBXTargetDependency */,
+				46EB2E000288E0 /* PBXTargetDependency */,
+				46EB2E00028900 /* PBXTargetDependency */,
+				46EB2E00028920 /* PBXTargetDependency */,
+				46EB2E00028940 /* PBXTargetDependency */,
+				46EB2E00028960 /* PBXTargetDependency */,
+				46EB2E00028980 /* PBXTargetDependency */,
+				46EB2E000289A0 /* PBXTargetDependency */,
+				46EB2E000289C0 /* PBXTargetDependency */,
+				46EB2E000289E0 /* PBXTargetDependency */,
+				46EB2E00028A00 /* PBXTargetDependency */,
+				46EB2E00028A20 /* PBXTargetDependency */,
+				46EB2E00028A40 /* PBXTargetDependency */,
+				46EB2E00028A60 /* PBXTargetDependency */,
+				46EB2E00028A80 /* PBXTargetDependency */,
+				46EB2E00028AA0 /* PBXTargetDependency */,
+				46EB2E00028AC0 /* PBXTargetDependency */,
+				46EB2E00028AE0 /* PBXTargetDependency */,
+				46EB2E00028B00 /* PBXTargetDependency */,
+				46EB2E00028B20 /* PBXTargetDependency */,
+				46EB2E00028B40 /* PBXTargetDependency */,
+				46EB2E00028B60 /* PBXTargetDependency */,
+				46EB2E00028B80 /* PBXTargetDependency */,
+				46EB2E00028BA0 /* PBXTargetDependency */,
+				46EB2E00028BC0 /* PBXTargetDependency */,
+				46EB2E00028BE0 /* PBXTargetDependency */,
+				46EB2E00028C00 /* PBXTargetDependency */,
+				46EB2E00028C20 /* PBXTargetDependency */,
+				46EB2E00028C40 /* PBXTargetDependency */,
+				46EB2E00028C60 /* PBXTargetDependency */,
+				46EB2E00028C80 /* PBXTargetDependency */,
+				46EB2E00028CA0 /* PBXTargetDependency */,
+				46EB2E00028CC0 /* PBXTargetDependency */,
+				46EB2E00028CE0 /* PBXTargetDependency */,
+				46EB2E00028D00 /* PBXTargetDependency */,
+				46EB2E00028D20 /* PBXTargetDependency */,
+				46EB2E00028D40 /* PBXTargetDependency */,
+				46EB2E00028D60 /* PBXTargetDependency */,
+				46EB2E00028D80 /* PBXTargetDependency */,
+				46EB2E00028DA0 /* PBXTargetDependency */,
+				46EB2E00028DC0 /* PBXTargetDependency */,
+				46EB2E00028DE0 /* PBXTargetDependency */,
+				46EB2E00028E00 /* PBXTargetDependency */,
+				46EB2E00028E20 /* PBXTargetDependency */,
+				46EB2E00028E40 /* PBXTargetDependency */,
+				46EB2E00028E60 /* PBXTargetDependency */,
+				46EB2E00028E80 /* PBXTargetDependency */,
+				46EB2E00028EA0 /* PBXTargetDependency */,
+				46EB2E00028EC0 /* PBXTargetDependency */,
+				46EB2E00028EE0 /* PBXTargetDependency */,
+				46EB2E00028F00 /* PBXTargetDependency */,
+				46EB2E00028F20 /* PBXTargetDependency */,
+				46EB2E00028F40 /* PBXTargetDependency */,
+				46EB2E00028F60 /* PBXTargetDependency */,
+				46EB2E00028F80 /* PBXTargetDependency */,
+				46EB2E00028FA0 /* PBXTargetDependency */,
+				46EB2E00028FC0 /* PBXTargetDependency */,
+				46EB2E00028FE0 /* PBXTargetDependency */,
+				46EB2E00029000 /* PBXTargetDependency */,
+				46EB2E00029020 /* PBXTargetDependency */,
+				46EB2E00029040 /* PBXTargetDependency */,
+				46EB2E00029060 /* PBXTargetDependency */,
+				46EB2E00029080 /* PBXTargetDependency */,
+				46EB2E000290A0 /* PBXTargetDependency */,
+				46EB2E000290C0 /* PBXTargetDependency */,
+				46EB2E000290E0 /* PBXTargetDependency */,
+				46EB2E00029100 /* PBXTargetDependency */,
+				46EB2E00029120 /* PBXTargetDependency */,
+				46EB2E00029140 /* PBXTargetDependency */,
+				46EB2E00029160 /* PBXTargetDependency */,
+				46EB2E00029180 /* PBXTargetDependency */,
+				46EB2E000291A0 /* PBXTargetDependency */,
+				46EB2E000291C0 /* PBXTargetDependency */,
+				46EB2E000291E0 /* PBXTargetDependency */,
+				46EB2E00029200 /* PBXTargetDependency */,
+				46EB2E00029220 /* PBXTargetDependency */,
+				46EB2E00029240 /* PBXTargetDependency */,
+				46EB2E00029260 /* PBXTargetDependency */,
+				46EB2E00029280 /* PBXTargetDependency */,
+				46EB2E000292A0 /* PBXTargetDependency */,
+			);
+			name = "Pods-QwikenPartner";
+			productName = "Pods-QwikenPartner";
+			productReference = 5A1204E9814E5B7521A98BAD38027486 /* Pods-QwikenPartner */;
 			productType = "com.apple.product-type.library.static";
 		};
 		27F648AD269E94404D6A7547C4F9C683 /* React-jserrorhandler */ = {
@@ -28564,120 +28678,6 @@
 			name = RNGoogleSignin;
 			productName = RNGoogleSignin;
 			productReference = 97CE6A3FA04F0B3C1E0418A227804309 /* RNGoogleSignin */;
-			productType = "com.apple.product-type.library.static";
-		};
-		56B67DE2F02DB4CE3983BD5785DAD8F9 /* Pods-BuzyBees */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00028500 /* Build configuration list for PBXNativeTarget "Pods-BuzyBees" */;
-			buildPhases = (
-				46EB2E00028540 /* Headers */,
-				46EB2E00028550 /* Sources */,
-				46EB2E00028560 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				46EB2E000286A0 /* PBXTargetDependency */,
-				46EB2E000286C0 /* PBXTargetDependency */,
-				46EB2E000286E0 /* PBXTargetDependency */,
-				46EB2E00028700 /* PBXTargetDependency */,
-				46EB2E00028720 /* PBXTargetDependency */,
-				46EB2E00028740 /* PBXTargetDependency */,
-				46EB2E00028760 /* PBXTargetDependency */,
-				46EB2E00028780 /* PBXTargetDependency */,
-				46EB2E000287A0 /* PBXTargetDependency */,
-				46EB2E000287C0 /* PBXTargetDependency */,
-				46EB2E000287E0 /* PBXTargetDependency */,
-				46EB2E00028800 /* PBXTargetDependency */,
-				46EB2E00028820 /* PBXTargetDependency */,
-				46EB2E00028840 /* PBXTargetDependency */,
-				46EB2E00028860 /* PBXTargetDependency */,
-				46EB2E00028880 /* PBXTargetDependency */,
-				46EB2E000288A0 /* PBXTargetDependency */,
-				46EB2E000288C0 /* PBXTargetDependency */,
-				46EB2E000288E0 /* PBXTargetDependency */,
-				46EB2E00028900 /* PBXTargetDependency */,
-				46EB2E00028920 /* PBXTargetDependency */,
-				46EB2E00028940 /* PBXTargetDependency */,
-				46EB2E00028960 /* PBXTargetDependency */,
-				46EB2E00028980 /* PBXTargetDependency */,
-				46EB2E000289A0 /* PBXTargetDependency */,
-				46EB2E000289C0 /* PBXTargetDependency */,
-				46EB2E000289E0 /* PBXTargetDependency */,
-				46EB2E00028A00 /* PBXTargetDependency */,
-				46EB2E00028A20 /* PBXTargetDependency */,
-				46EB2E00028A40 /* PBXTargetDependency */,
-				46EB2E00028A60 /* PBXTargetDependency */,
-				46EB2E00028A80 /* PBXTargetDependency */,
-				46EB2E00028AA0 /* PBXTargetDependency */,
-				46EB2E00028AC0 /* PBXTargetDependency */,
-				46EB2E00028AE0 /* PBXTargetDependency */,
-				46EB2E00028B00 /* PBXTargetDependency */,
-				46EB2E00028B20 /* PBXTargetDependency */,
-				46EB2E00028B40 /* PBXTargetDependency */,
-				46EB2E00028B60 /* PBXTargetDependency */,
-				46EB2E00028B80 /* PBXTargetDependency */,
-				46EB2E00028BA0 /* PBXTargetDependency */,
-				46EB2E00028BC0 /* PBXTargetDependency */,
-				46EB2E00028BE0 /* PBXTargetDependency */,
-				46EB2E00028C00 /* PBXTargetDependency */,
-				46EB2E00028C20 /* PBXTargetDependency */,
-				46EB2E00028C40 /* PBXTargetDependency */,
-				46EB2E00028C60 /* PBXTargetDependency */,
-				46EB2E00028C80 /* PBXTargetDependency */,
-				46EB2E00028CA0 /* PBXTargetDependency */,
-				46EB2E00028CC0 /* PBXTargetDependency */,
-				46EB2E00028CE0 /* PBXTargetDependency */,
-				46EB2E00028D00 /* PBXTargetDependency */,
-				46EB2E00028D20 /* PBXTargetDependency */,
-				46EB2E00028D40 /* PBXTargetDependency */,
-				46EB2E00028D60 /* PBXTargetDependency */,
-				46EB2E00028D80 /* PBXTargetDependency */,
-				46EB2E00028DA0 /* PBXTargetDependency */,
-				46EB2E00028DC0 /* PBXTargetDependency */,
-				46EB2E00028DE0 /* PBXTargetDependency */,
-				46EB2E00028E00 /* PBXTargetDependency */,
-				46EB2E00028E20 /* PBXTargetDependency */,
-				46EB2E00028E40 /* PBXTargetDependency */,
-				46EB2E00028E60 /* PBXTargetDependency */,
-				46EB2E00028E80 /* PBXTargetDependency */,
-				46EB2E00028EA0 /* PBXTargetDependency */,
-				46EB2E00028EC0 /* PBXTargetDependency */,
-				46EB2E00028EE0 /* PBXTargetDependency */,
-				46EB2E00028F00 /* PBXTargetDependency */,
-				46EB2E00028F20 /* PBXTargetDependency */,
-				46EB2E00028F40 /* PBXTargetDependency */,
-				46EB2E00028F60 /* PBXTargetDependency */,
-				46EB2E00028F80 /* PBXTargetDependency */,
-				46EB2E00028FA0 /* PBXTargetDependency */,
-				46EB2E00028FC0 /* PBXTargetDependency */,
-				46EB2E00028FE0 /* PBXTargetDependency */,
-				46EB2E00029000 /* PBXTargetDependency */,
-				46EB2E00029020 /* PBXTargetDependency */,
-				46EB2E00029040 /* PBXTargetDependency */,
-				46EB2E00029060 /* PBXTargetDependency */,
-				46EB2E00029080 /* PBXTargetDependency */,
-				46EB2E000290A0 /* PBXTargetDependency */,
-				46EB2E000290C0 /* PBXTargetDependency */,
-				46EB2E000290E0 /* PBXTargetDependency */,
-				46EB2E00029100 /* PBXTargetDependency */,
-				46EB2E00029120 /* PBXTargetDependency */,
-				46EB2E00029140 /* PBXTargetDependency */,
-				46EB2E00029160 /* PBXTargetDependency */,
-				46EB2E00029180 /* PBXTargetDependency */,
-				46EB2E000291A0 /* PBXTargetDependency */,
-				46EB2E000291C0 /* PBXTargetDependency */,
-				46EB2E000291E0 /* PBXTargetDependency */,
-				46EB2E00029200 /* PBXTargetDependency */,
-				46EB2E00029220 /* PBXTargetDependency */,
-				46EB2E00029240 /* PBXTargetDependency */,
-				46EB2E00029260 /* PBXTargetDependency */,
-				46EB2E00029280 /* PBXTargetDependency */,
-				46EB2E000292A0 /* PBXTargetDependency */,
-			);
-			name = "Pods-BuzyBees";
-			productName = "Pods-BuzyBees";
-			productReference = CE14D291B5F7AC462AF11E76FAAE14DB /* Pods-BuzyBees */;
 			productType = "com.apple.product-type.library.static";
 		};
 		5768DFA40F6926417DA5BBD7EF5A1B61 /* AppCheckCore */ = {
@@ -30247,7 +30247,7 @@
 				BF2A15FEC3F3424BBC4B9AD5F86F2D54 /* lottie-ios-LottiePrivacyInfo */,
 				D0A4E77DD13672F3E2E1D9593F999DBA /* lottie-react-native */,
 				01643B566CA4B61463105A9F16FACC6D /* lottie-react-native-Lottie_React_Native_Privacy */,
-				56B67DE2F02DB4CE3983BD5785DAD8F9 /* Pods-BuzyBees */,
+				2335542D2B813251C2CA9719C1035D8F /* Pods-QwikenPartner */,
 				2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */,
 				1BFBEDBF7E03729D43C96530EE190825 /* PromisesObjC-FBLPromises_Privacy */,
 				EC55D52694092A9D0E6A78EB01207EB5 /* RCT-Folly */,
@@ -33034,7 +33034,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00028620 /* Pods-BuzyBees-dummy.m in Sources */,
+				46EB2E00028620 /* Pods-QwikenPartner-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45213,7 +45213,7 @@
 		};
 		46EB2E00028510 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00028580 /* Pods-BuzyBees.release.xcconfig */;
+			baseConfigurationReference = 46EB2E00028580 /* Pods-QwikenPartner.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -45227,7 +45227,7 @@
 				EXPANDED_CODE_SIGN_IDENTITY = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BuzyBees/Pods-BuzyBees.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-QwikenPartner/Pods-QwikenPartner.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -45241,7 +45241,7 @@
 		};
 		46EB2E00028520 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00028590 /* Pods-BuzyBees.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E00028590 /* Pods-QwikenPartner.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -45255,7 +45255,7 @@
 				EXPANDED_CODE_SIGN_IDENTITY = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BuzyBees/Pods-BuzyBees.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-QwikenPartner/Pods-QwikenPartner.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -46295,7 +46295,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E00028500 /* Build configuration list for PBXNativeTarget "Pods-BuzyBees" */ = {
+		46EB2E00028500 /* Build configuration list for PBXNativeTarget "Pods-QwikenPartner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				46EB2E00028520 /* Debug */,
