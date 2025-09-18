@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Splash screen background color - Dark blue matching the logo background -->
-    <color name="splash_background">#1a2533</color>
+    <!-- Splash screen background color - Light greenish-blue matching iOS -->
+    <color name="splash_background">#A8E7CF</color>
     
     <!-- Qwiken brand colors -->
     <color name="qwiken_purple">#9B79D9</color>

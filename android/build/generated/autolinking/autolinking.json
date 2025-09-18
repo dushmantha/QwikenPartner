@@ -842,7 +842,8 @@
         },
         {
           "name": "--terminal <string>",
-          "description": "Launches the Metro Bundler in a new window using the specified terminal path."
+          "description": "Launches the Metro Bundler in a new window using the specified terminal path.",
+          "default": "iTerm.app"
         },
         {
           "name": "--binary-path <string>",
@@ -1001,7 +1002,8 @@
         },
         {
           "name": "--terminal <string>",
-          "description": "Launches the Metro Bundler in a new window using the specified terminal path."
+          "description": "Launches the Metro Bundler in a new window using the specified terminal path.",
+          "default": "iTerm.app"
         },
         {
           "name": "--appId <string>",
@@ -1087,8 +1089,8 @@
     "android": {
       "sourceDir": "/Users/tharakadushmantha/CascadeProjects/QwikenPartner/android",
       "appName": "app",
-      "packageName": "org.app.qwikenpartner",
-      "applicationId": "org.app.qwikenpartner",
+      "packageName": "org.app.qwiken",
+      "applicationId": "org.app.qwiken",
       "mainActivity": ".MainActivity",
       "assets": []
     }

@@ -2,7 +2,7 @@
 <resources>
     <color name="qwiken_cream">#F5F5DC</color>
     <color name="qwiken_purple">#9B79D9</color>
-    <color name="splash_background">#1a2533</color>
+    <color name="splash_background">#A8E7CF</color>
     <integer name="react_native_dev_server_port">8081</integer>
     <string name="app_name">Qwiken Partner</string>
     <string name="gcm_defaultSenderId" translatable="false">848067237114</string>

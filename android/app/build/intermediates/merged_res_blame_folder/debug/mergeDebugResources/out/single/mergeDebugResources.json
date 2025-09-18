@@ -32,6 +32,10 @@
         "source": "org.app.qwiken.app-main-49:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
+        "merged": "org.app.qwiken.app-debug-47:/drawable-xhdpi_splash.png.flat",
+        "source": "org.app.qwiken.app-main-49:/drawable-xhdpi/splash.png"
+    },
+    {
         "merged": "org.app.qwiken.app-debug-47:/drawable-xhdpi_node_modules_reactnativecalendars_src_img_up.png.flat",
         "source": "org.app.qwiken.app-main-49:/drawable-xhdpi/node_modules_reactnativecalendars_src_img_up.png"
     },
