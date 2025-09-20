@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="org.app.qwiken"
+3    package="org.app.qwikenpartner"
 4    android:versionCode="16"
 5    android:versionName="1.0" >
 6
@@ -83,12 +83,12 @@
 43
 44    <permission
 44-->[androidx.core:core:1.13.1] /Users/tharakadushmantha/.gradle/caches/8.14.1/transforms/6aeae7bb9b58221aa3908f7c8daac62f/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
-45        android:name="org.app.qwiken.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+45        android:name="org.app.qwikenpartner.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
 45-->[androidx.core:core:1.13.1] /Users/tharakadushmantha/.gradle/caches/8.14.1/transforms/6aeae7bb9b58221aa3908f7c8daac62f/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
 46        android:protectionLevel="signature" />
 46-->[androidx.core:core:1.13.1] /Users/tharakadushmantha/.gradle/caches/8.14.1/transforms/6aeae7bb9b58221aa3908f7c8daac62f/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
 47
-48    <uses-permission android:name="org.app.qwiken.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- for android -->
+48    <uses-permission android:name="org.app.qwikenpartner.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- for android -->
 48-->[androidx.core:core:1.13.1] /Users/tharakadushmantha/.gradle/caches/8.14.1/transforms/6aeae7bb9b58221aa3908f7c8daac62f/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
 48-->[androidx.core:core:1.13.1] /Users/tharakadushmantha/.gradle/caches/8.14.1/transforms/6aeae7bb9b58221aa3908f7c8daac62f/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
 49    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
@@ -147,7 +147,7 @@
 70
 71    <application
 71-->/Users/tharakadushmantha/CascadeProjects/QwikenPartner/android/app/src/main/AndroidManifest.xml:11:5-48:19
-72        android:name="org.app.qwiken.MainApplication"
+72        android:name="org.app.qwikenpartner.MainApplication"
 72-->/Users/tharakadushmantha/CascadeProjects/QwikenPartner/android/app/src/main/AndroidManifest.xml:12:7-38
 73        android:allowBackup="false"
 73-->/Users/tharakadushmantha/CascadeProjects/QwikenPartner/android/app/src/main/AndroidManifest.xml:16:7-34
@@ -169,7 +169,7 @@
 82-->/Users/tharakadushmantha/CascadeProjects/QwikenPartner/android/app/src/debug/AndroidManifest.xml:6:9-44
 83        <activity
 83-->/Users/tharakadushmantha/CascadeProjects/QwikenPartner/android/app/src/main/AndroidManifest.xml:19:7-30:18
-84            android:name="org.app.qwiken.MainActivity"
+84            android:name="org.app.qwikenpartner.MainActivity"
 84-->/Users/tharakadushmantha/CascadeProjects/QwikenPartner/android/app/src/main/AndroidManifest.xml:20:9-37
 85            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
 85-->/Users/tharakadushmantha/CascadeProjects/QwikenPartner/android/app/src/main/AndroidManifest.xml:22:9-118
@@ -230,7 +230,7 @@
 114-->[:react-native-webview] /Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:9-28:20
 115            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
 115-->[:react-native-webview] /Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:21:13-83
-116            android:authorities="org.app.qwiken.fileprovider"
+116            android:authorities="org.app.qwikenpartner.fileprovider"
 116-->[:react-native-webview] /Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:13-64
 117            android:exported="false"
 117-->[:react-native-webview] /Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:23:13-37
@@ -247,7 +247,7 @@
 123-->[:react-native-image-picker] /Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-16:20
 124            android:name="com.imagepicker.ImagePickerProvider"
 124-->[:react-native-image-picker] /Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-63
-125            android:authorities="org.app.qwiken.imagepickerprovider"
+125            android:authorities="org.app.qwikenpartner.imagepickerprovider"
 125-->[:react-native-image-picker] /Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-71
 126            android:exported="false"
 126-->[:react-native-image-picker] /Users/tharakadushmantha/CascadeProjects/QwikenPartner/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-37
@@ -430,7 +430,7 @@
 224-->[com.google.firebase:firebase-common:21.0.0] /Users/tharakadushmantha/.gradle/caches/8.14.1/transforms/5e53a602be65d2592c29a7d4103274ae/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
 225            android:name="com.google.firebase.provider.FirebaseInitProvider"
 225-->[com.google.firebase:firebase-common:21.0.0] /Users/tharakadushmantha/.gradle/caches/8.14.1/transforms/5e53a602be65d2592c29a7d4103274ae/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
-226            android:authorities="org.app.qwiken.firebaseinitprovider"
+226            android:authorities="org.app.qwikenpartner.firebaseinitprovider"
 226-->[com.google.firebase:firebase-common:21.0.0] /Users/tharakadushmantha/.gradle/caches/8.14.1/transforms/5e53a602be65d2592c29a7d4103274ae/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
 227            android:directBootAware="true"
 227-->[com.google.firebase:firebase-common:21.0.0] /Users/tharakadushmantha/.gradle/caches/8.14.1/transforms/5e53a602be65d2592c29a7d4103274ae/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
@@ -450,7 +450,7 @@
 235-->[androidx.emoji2:emoji2:1.2.0] /Users/tharakadushmantha/.gradle/caches/8.14.1/transforms/b56bb98642710d4493b01e15bae62df3/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
 236            android:name="androidx.startup.InitializationProvider"
 236-->[androidx.emoji2:emoji2:1.2.0] /Users/tharakadushmantha/.gradle/caches/8.14.1/transforms/b56bb98642710d4493b01e15bae62df3/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
-237            android:authorities="org.app.qwiken.androidx-startup"
+237            android:authorities="org.app.qwikenpartner.androidx-startup"
 237-->[androidx.emoji2:emoji2:1.2.0] /Users/tharakadushmantha/.gradle/caches/8.14.1/transforms/b56bb98642710d4493b01e15bae62df3/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
 238            android:exported="false" >
 238-->[androidx.emoji2:emoji2:1.2.0] /Users/tharakadushmantha/.gradle/caches/8.14.1/transforms/b56bb98642710d4493b01e15bae62df3/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37

@@ -1,4 +1,4 @@
-package org.app.qwiken
+package org.app.qwikenpartner
 
 import android.app.Application
 import com.facebook.react.PackageList

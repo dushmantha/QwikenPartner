@@ -44,7 +44,7 @@ export const DEV_CONFIG = {
   },
   
   // Development helpers
-  SHOW_DEV_INDICATORS: false, // Show visual indicators when using mock data
+  SHOW_DEV_INDICATORS: true, // Show visual indicators when using mock data
   LOG_MOCK_USAGE: true, // Log when mock data is being used
   MOCK_DELAY_MS: 500, // Simulate network delay for realistic testing
 };

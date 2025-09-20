@@ -315,7 +315,7 @@ MERGED from [com.facebook.soloader:soloader:0.11.0] /Users/tharakadushmantha/.gr
 	android:name
 		ADDED from /Users/tharakadushmantha/CascadeProjects/QwikenPartner/android/app/src/main/AndroidManifest.xml:12:7-38
 		ADDED from /Users/tharakadushmantha/CascadeProjects/QwikenPartner/android/app/src/main/AndroidManifest.xml:12:7-38
-activity#org.app.qwiken.MainActivity
+activity#org.app.qwikenpartner.MainActivity
 ADDED from /Users/tharakadushmantha/CascadeProjects/QwikenPartner/android/app/src/main/AndroidManifest.xml:19:7-30:18
 	android:label
 		ADDED from /Users/tharakadushmantha/CascadeProjects/QwikenPartner/android/app/src/main/AndroidManifest.xml:21:9-41
@@ -943,7 +943,7 @@ ADDED from [androidx.core:core:1.13.1] /Users/tharakadushmantha/.gradle/caches/8
 		ADDED from [androidx.core:core:1.13.1] /Users/tharakadushmantha/.gradle/caches/8.14.1/transforms/6aeae7bb9b58221aa3908f7c8daac62f/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.13.1] /Users/tharakadushmantha/.gradle/caches/8.14.1/transforms/6aeae7bb9b58221aa3908f7c8daac62f/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
-permission#org.app.qwiken.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#org.app.qwikenpartner.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.1] /Users/tharakadushmantha/.gradle/caches/8.14.1/transforms/6aeae7bb9b58221aa3908f7c8daac62f/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.13.1] /Users/tharakadushmantha/.gradle/caches/8.14.1/transforms/6aeae7bb9b58221aa3908f7c8daac62f/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
@@ -953,7 +953,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.1] /Users/tharakadushmantha/.gradle/caches/8.14.1/transforms/6aeae7bb9b58221aa3908f7c8daac62f/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.13.1] /Users/tharakadushmantha/.gradle/caches/8.14.1/transforms/6aeae7bb9b58221aa3908f7c8daac62f/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
-uses-permission#org.app.qwiken.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#org.app.qwikenpartner.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.1] /Users/tharakadushmantha/.gradle/caches/8.14.1/transforms/6aeae7bb9b58221aa3908f7c8daac62f/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.13.1] /Users/tharakadushmantha/.gradle/caches/8.14.1/transforms/6aeae7bb9b58221aa3908f7c8daac62f/transformed/core-1.13.1/AndroidManifest.xml:26:22-94

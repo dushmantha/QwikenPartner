@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "org.app.qwiken.app-mergeDebugResources-45:/values-sk/values-sk.xml",
+            "outputFile": "org.app.qwikenpartner.app-mergeDebugResources-44:/values-sk/values-sk.xml",
             "map": [
                 {
                     "source": "/Users/tharakadushmantha/.gradle/caches/8.14.1/transforms/c4ac09b3e8262e88bbda3518141fe9e6/transformed/jetified-react-android-0.75.4-debug/res/values-sk/values-sk.xml",

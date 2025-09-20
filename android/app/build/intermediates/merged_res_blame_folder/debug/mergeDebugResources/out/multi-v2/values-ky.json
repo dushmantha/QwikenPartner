@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "org.app.qwiken.app-mergeDebugResources-45:/values-ky/values-ky.xml",
+            "outputFile": "org.app.qwikenpartner.app-mergeDebugResources-44:/values-ky/values-ky.xml",
             "map": [
                 {
                     "source": "/Users/tharakadushmantha/.gradle/caches/8.14.1/transforms/d64c2c214ef813a61c2f113e6457111a/transformed/jetified-play-services-basement-18.4.0/res/values-ky/values.xml",

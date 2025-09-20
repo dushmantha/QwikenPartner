@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "org.app.qwiken.app-mergeDebugResources-45:/values-v24/values-v24.xml",
+            "outputFile": "org.app.qwikenpartner.app-mergeDebugResources-44:/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "/Users/tharakadushmantha/.gradle/caches/8.14.1/transforms/e6a54e62346612c851f4ebfbad22dfbf/transformed/material-1.12.0/res/values-v24/values-v24.xml",
